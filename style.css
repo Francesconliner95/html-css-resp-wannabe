@@ -74,52 +74,49 @@ img {
 
 /***RESPONSIVE INTERMEDIO***/
 
-@media screen and (max-width: 800px){
+ @media screen and (max-width: 800px){
+
+    .row{
+         width: 100%;
+     }
 
     #lezioni .row>.left,
     #lezioni .row>.right {
-      float: none;
-    }
 
-
-    #steps .row>.right {
-      float: none;
+      width: 100%;
     }
 
     #why .row>.first,
     #why .row>.second,
     #why .row>.third {
-      width: 50%;
+      width: 100%;
     }
-
-    h1{
-        width: 50%;
-    }
+    
 }
 
 /***RESPONSIVE PICCOLO***/
 
 @media screen and (max-width: 420px){
 
+    .row{
+        width: 100%;
+    }
+
     #lezioni .row>.left,
     #lezioni .row>.right {
-      float: none;
+      width: 100%;
     }
 
     #steps .row>.left,
     #steps .row>.central,
     #steps .row>.right {
-      float: none;
+      width: 100%;
     }
 
     #why .row>.first,
     #why .row>.second,
     #why .row>.third {
-      width: 33%;
-    }
-
-    h1{
-        width: 33%;
+      width: 100%;
     }
 
 }
